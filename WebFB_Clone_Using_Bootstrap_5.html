@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>FaceBook - Clone | By - Sagar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+        <!-- animate css -->
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <!-- sweet alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        .btn-success {
+            background-color: rgb(20, 173, 6);
+            border: none;
+            font-weight: 600;
+
+
+
+
+        }
+
+        .btn-success:hover {
+            background-color: rgb(38, 148, 10);
+
+        }
+
+        .btn-primary {
+            font-weight: 600;
+        }
+
+        .login {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgb(238, 239, 248);
+            height: 720px;
+
+        }
+
+        .text-dark {
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .text-dark:hover {
+            text-decoration: underline;
+            font-weight: 700;
+        }
+
+        .txt {
+            text-decoration: none;
+        }
+
+        .txt:hover {
+            text-decoration: underline;
+        }
+
+        .tag {
+            padding-left: 1.7rem;
+            padding-right: 3rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+
+        .card {
+            margin-top: 0.2rem;
+            margin-bottom: 1.5rem;
+            
+            
+        }
+
+        .crt {
+            margin-right: 2rem;
+            margin-left: 2rem;
+        }
+        .swal-title{
+            color: red;
+        }
+        .swal-text{
+            color: rgb(189, 13, 13);
+            font-size: 18px;
+        }
+    </style>
+
+
+</head>
+
+<body style="font-family:Arial;">
+   <script>
+       swal("Attention!", "This is not a official facebook page. It's a clone of facebook.com user login page. Don't enter your email id or password.\n\n If you entered your email id or phone number and password then I am not responsible for any damage of your facebook account.\n\n Press 'Ok' to continue... ","warning");
+   </script>
+    <section class="login">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-7 col-sm-6">
+
+                    <div class="card-body animate__animated animate__backInDown mx-4" style="margin-top:1rem;">
+
+                        <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" class=" ml-5" height="100">
+                        <h3 class=" tag" style="font-size:27px;">
+                            Facebook helps you connect and share <br> with the people in your life. </h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+                <div class=" col-md-5 col-sm-6 " >
+                    <div class="card animate__animated animate__backInDown
+                      shadow p-1" style="border-radius:9px; width:24rem;">
+                        <!-- <div class="card-header"
+                       <h3 class="card-title">FaceBook Login Clone</h3>
+                    </div> -->
+                        <div class="card-body">
+                            <form class="needs-validation" novalidate>
+                                <div class="mb-3 " style="border-radius: 10px;">
+                                    <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                                    <input type="email" class="form-control form-control-lg" id="validationTooltip01"
+                                        placeholder="Email address or phone number" required>
+                                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                        Email address or phone number is required.
+                                    </div>
+                                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                </div>
+                                <div class="mb-3">
+                                    <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+                                    <input type="password" class="form-control form-control-lg"
+                                        id="exampleInputPassword1" placeholder="Password" required>
+                                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                        Password is required.
+                                    </div>
+                                </div>
+
+                                <div class="d-grid gap-2 ">
+                                    <button class="btn btn-lg btn-primary" type="submit">Log In</button>
+                                    <a href="#" class="txt">
+                                        <p class="d-flex justify-content-center mt-1">Forgotten Password?</p>
+                                    </a>
+
+                                </div>
+                                <hr>
+                                <div class="d-grid gap-2 px-5 mx-4">
+                                    <button class="btn btn-lg btn-success" type="submit" style="font-size: 16px;">Create
+                                        New Account</button>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 " style="font-size: 15px;">
+                        <p class="mt-4  crt">
+                            <a href="#" class="text-dark ">Create a Page </a>
+                            for a celebrity, brand or business.
+                        </p>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="card-footer" style="background-color:#fff;border:none;">
+        <div class="container">
+            <div class="row mx-3">
+                <p class="text-muted mt-4" style="font-size: 12px;">
+                    English (UK)
+
+                  <span class="mx-1">বাংলা</span>   
+                  <span  class="mx-1">  हिन्दी</span>
+                  <span  class="mx-1">اردو</span>
+                  <span  class="mx-1"> नेपाली</span>
+                  <span  class="mx-1">ଓଡ଼ିଆ</span>
+                  <span  class="mx-1">Español</span>
+                  <span  class="mx-1">Português (Brasil)</span>
+                  <span  class="mx-1">Français (France)</span>
+                  <span  class="mx-1">Deutsch</span>
+                  <span  class="mx-1">Italiano</span>
+                  <span class="mx-1"><i class="fas fa-plus-square"></i></span>
+                </p>
+                  <hr class="mx-2">
+                  <p class="text-muted " style="font-size: 12px;">
+                  <span class="mx-1">
+                      Sign Up
+                  </span>
+                  <span class="mx-1">Log In</span>
+                  <span class="mx-1">Messenger</span>
+                  <span class="mx-1">Facebook Lite</span>
+                  <span class="mx-1">Watch</span>
+                  <span class="mx-1">Places</span>
+                  <span class="mx-1">Games</span>
+                  <span class="mx-1">Marketplace</span>
+                  <span class="mx-1">Facebook Pay</span>
+                  <span class="mx-1">Oculus</span>
+                  <span class="mx-1">Portal</span>
+                  <span class="mx-1">Instagram</span>
+                  <span class="mx-1">Bulletin</span>
+                  <span class="mx-1">Local</span><br>
+                  <span class="mx-1">Fundraisers</span>
+                  <span class="mx-1">Servies</span>
+                  <span class="mx-1">Voting Information Centre</span>
+                  <span class="mx-1">Groups</span>
+                  <span class="mx-1">About</span>
+                  <span class="mx-1">Create add</span>
+                  <span class="mx-1">Create Page</span>
+                  <span class="mx-1">Developers</span>
+                  <span class="mx-1">Carees</span>
+                  <span class="mx-1">Privacy</span>
+                  <span class="mx-1">Cookies</span>
+                  <span class="mx-1">Adchoices</span>
+                  <span class="mx-1">Terms</span> <br>
+                  <span class="mx-1">Help</span> <br><br>
+                  <span class="mx-1">Designed By : Sagar Nandy (Frontend Developer)</span><br>
+                  This is project of 22 <sup>th</sup>  January 2022. It's a facebook login page clone for desktop user.
+                    
+
+
+                   
+             </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- bundle js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+</body>
+
+</html>
