@@ -52,6 +52,7 @@ int main()
 
 
 /*
+First output
 
 Enter the values of a : 
 1
