@@ -49,3 +49,42 @@ int main()
   }
   return 0; 
 }
+
+
+/*
+
+Enter the values of a : 
+1
+Enter the values of b  : 
+-5
+Enter the values of c : 
+-14
+The equation is Quadratic. 
+ The roots are real and unequal. 
+ x1 = 7.000000 , x2 = -2.000000
+
+ Second Output
+Enter the values of a : 
+1
+Enter the values of b  : 
+4
+Enter the values of c : 
+5
+The equation is Quadratic. 
+ The roots are imaginary.
+ x1 = -2.000000+i 1.000000x2 = -2.000000-i  1.000000
+
+Third Output
+Enter the values of a : 
+1
+Enter the values of b  : 
+-2
+Enter the values of c : 
+1
+The equation is Quadratic. 
+ The roots are equal.
+The equal root is = 1.000000
+
+
+
+*/
